@@ -15,7 +15,7 @@ header {
 nav {
           display: flex;
           justify-content: space-between;
-          
+
           margin-left: 80px;
           margin-right: 80px;
 
@@ -84,36 +84,43 @@ nav ul li {
 
 
 }
+
 /* features part */
-.items{
+.items {
           display: grid;
           grid-template-columns: 1fr 1fr;
           width: 700px;
           margin-left: 100px;
           margin: 130px;
 }
-.items1{
+
+.items1 {
           text-align: center;
           width: 700px;
           margin-top: 400px;
           height: 250px;
-          
+
 }
-.head-line{
+
+.head-line {
           color: rgb(187, 183, 183);
 }
-.head-line1{
+
+.head-line1 {
           color: orange;
           margin-bottom: 10px;
 }
-.items1-paragraph{
+
+.items1-paragraph {
           margin-bottom: 20px;
 
 }
-.features{
-          display:flex ;
+
+.features {
+          display: flex;
 }
-.button1{
+
+.button1 {
           border-radius: 8px;
           color: white;
           background-color: orange;
@@ -122,4 +129,109 @@ nav ul li {
           font-size: 20px;
           height: 64px;
           width: 180px;
+}
+
+/* second features */
+
+
+.second-features {
+          height: 1059px;
+          width: 1440px;
+          margin-left: 292px;
+          gap: 54px;
+          display: flex;
+
+
+
+}
+
+.second-features1 {
+          height: 982px;
+          width: 586px;
+          left: 118px;
+          margin-top: 10px;
+          border-radius: 8px;
+
+}
+
+.head-line2 {
+          margin-bottom: 15px;
+}
+
+.second-features-headline {
+          margin-bottom: 20px;
+          font-weight: bold;
+          font-size: 40px;
+}
+
+.second-features-paragraph {
+          margin-bottom: 60px;
+}
+
+.second-features-inner1 {
+          background-color: rgb(252, 252, 252);
+          height: 87px;
+          width: 586px;
+          left: 118px;
+
+          border-radius: 8px;
+          padding: 50px 30px;
+
+
+
+}
+
+.second-features-inner2 {
+          background-color: rgb(252, 252, 252);
+          height: 87px;
+          width: 546px;
+          left: 118px;
+
+          border-radius: 8px;
+          gap: 10px;
+          margin-top: 10px;
+          padding: 50px 30px;
+}
+
+.second-features-inner3 {
+          background-color: rgb(252, 252, 252);
+          height: 87px;
+          width: 546px;
+          left: 118px;
+
+          border-radius: 8px;
+          gap: 10px;
+          margin-top: 10px;
+          padding: 50px 30px;
+}
+
+.second-features-inner4 {
+          background-color: rgb(252, 252, 252);
+          height: 87px;
+          width: 546px;
+          left: 118px;
+
+          border-radius: 8px;
+          gap: 10px;
+          margin-top: 10px;
+          padding: 50px 30px;
+}
+
+.second-features2 {
+          height: 1059px;
+          width: 800px;
+          left: 758px;
+          /* top: 2221px; */
+          border-radius: 8px;
+
+}
+
+.button2 {
+          height: 152px;
+          width: 255px;
+          margin-left: 850px;
+          /* top: 3080px; */
+          border-radius: 8px;
+          margin-top: 800px;
+
 }
