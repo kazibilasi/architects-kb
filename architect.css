@@ -449,12 +449,14 @@ textarea {
 
 .extrapart-end {
           margin-top: 26px;
-          margin-left: 336px;
-          padding: 24px;
+          margin-left: 358px;
+          padding: 23px 30px;
           border-radius: 8px;
           background-color: brown;
           color: white;
           border: none;
+          font-weight: bold;
+          font-size: 20px;
 
 }
 
@@ -472,4 +474,5 @@ textarea {
           margin-left: 50px;
           border-radius: 10px;
           color: white;
+          
 }
